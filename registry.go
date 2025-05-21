@@ -29,7 +29,7 @@ func registry() map[string]cliCommand {
 			callback:    commandMap,
 		},
 		"mapb": {
-			name:        "map",
+			name:        "mapb",
 			description: "Gives you the previous 20 Map Points",
 			callback:    commandMapb,
 		},
