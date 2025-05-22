@@ -17,6 +17,8 @@ type config struct {
 }
 
 func startRepl(cfg *config) {
+	commandHelp(cfg, "hi")
+
 	reader := bufio.NewScanner(os.Stdin)
 	for {
 		fmt.Print("Pokedex > ")
